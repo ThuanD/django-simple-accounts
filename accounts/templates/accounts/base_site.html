@@ -1,0 +1,58 @@
+{% extends "admin/base.html" %}
+{% load i18n static %}
+
+{% block title %}
+  {% if subtitle %}{{ subtitle }} | {% endif %}
+  {{ title }} | {{ site_title | default:_('Account site') }}
+{% endblock %}
+
+{% block branding %}
+  <h1 id="site-name"><a href="{% url 'accounts:home' %}">{{ site_header | default:_('Account site') }}</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
+
+{% block extrastyle %}
+  {{ block.super }}
+  <link rel="stylesheet" href="{% static 'admin/css/dashboard.css' %}">
+  <link rel="stylesheet" href="{% static 'admin/css/forms.css' %}">
+{% endblock %}
+
+{% block extrahead %}
+  <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}"/>
+{% endblock %}
+
+{% block usertools %}
+  <div id="user-tools">
+
+    {% if user.is_authenticated %}
+      {% block welcome-msg %}
+        {% translate 'Welcome,' %}
+        <strong>{% firstof user.get_short_name user.get_username %}</strong>.
+      {% endblock %}
+    {% endif %}
+
+    {% block userlinks %}
+      {% if site_url %}
+        <a href="{{ site_url }}" target="_blank">{% translate 'View site' %}</a> /
+      {% endif %}
+
+      {% if user.is_authenticated %}
+        <a href="{% url 'accounts:profile' pk=user.pk %}">{% translate 'Profile' %}</a> /
+        {% if user.has_usable_password %}
+          <a href="{% url 'accounts:password_change' %}">{% translate 'Change password' %}</a> /
+        {% endif %}
+        <form id="logout-form" method="post" action="{% url 'accounts:logged_out' %}">
+          {% csrf_token %}
+          <button type="submit">{% translate 'Log out' %}</button>
+        </form>
+      {% endif %}
+
+      {% include "admin/color_theme_toggle.html" %}
+    {% endblock %}
+  </div>
+{% endblock %}
+
+{% block content %}{% endblock %}
+
+{% block sidebar %}{% endblock %}

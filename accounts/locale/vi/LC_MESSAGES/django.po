@@ -1,0 +1,332 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-03 20:13+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: accounts/forms.py:11
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: accounts/forms.py:13
+#, fuzzy
+#| msgid ""
+#| "Raw passwords are not stored, so there is no way to see the user's "
+#| "password."
+msgid ""
+"Raw passwords are not stored, so there is no way to see the user’s password."
+msgstr ""
+"Mật khẩu thô không được lưu trữ, vì vậy không có cách nào để xem mật khẩu "
+"của người dùng."
+
+#: accounts/forms.py:18
+msgid "Last login"
+msgstr "Lần đăng nhập cuối"
+
+#: accounts/forms.py:22
+msgid "Date joined"
+msgstr "Ngày tham gia"
+
+#: accounts/settings.py:16 accounts/settings.py:17
+msgid "NOCOEM"
+msgstr "NOCOEM"
+
+#: accounts/templates/accounts/base_site.html:6
+#: accounts/templates/accounts/base_site.html:10
+#: accounts/templates/accounts/login_form.html:5
+#: accounts/templates/accounts/login_form.html:8
+#: accounts/templates/accounts/password_reset_complete.html:5
+#: accounts/templates/accounts/password_reset_confirm.html:5
+msgid "Account site"
+msgstr "Trang tài khoản"
+
+#: accounts/templates/accounts/base_site.html:30
+msgid "Welcome,"
+msgstr "Chào mừng,"
+
+#: accounts/templates/accounts/base_site.html:37
+msgid "View site"
+msgstr "Xem trang"
+
+#: accounts/templates/accounts/base_site.html:41
+#: accounts/templates/accounts/profile_form.html:20 accounts/views.py:80
+msgid "Profile"
+msgstr "Hồ sơ"
+
+#: accounts/templates/accounts/base_site.html:43
+msgid "Change password"
+msgstr "Đổi mật khẩu"
+
+#: accounts/templates/accounts/base_site.html:47
+msgid "Log out"
+msgstr "Đăng xuất"
+
+#: accounts/templates/accounts/home.html:24
+msgid "Recent device"
+msgstr "Thiết bị gần đây"
+
+#: accounts/templates/accounts/home.html:25
+msgid "My device"
+msgstr "Thiết bị của tôi"
+
+#: accounts/templates/accounts/home.html:26
+msgid "Public IP:"
+msgstr "IP công khai:"
+
+#: accounts/templates/accounts/home.html:27
+msgid "User agent:"
+msgstr "User agent:"
+
+#: accounts/templates/accounts/logged_out.html:5
+msgid "Logged out"
+msgstr "Đã đăng xuất"
+
+#: accounts/templates/accounts/logged_out.html:10
+#: accounts/templates/accounts/password_change_form.html:10
+#: accounts/templates/accounts/password_reset_complete.html:9
+#: accounts/templates/accounts/password_reset_confirm.html:13
+#: accounts/templates/accounts/password_reset_form.html:10
+#: accounts/templates/accounts/profile_form.html:19 accounts/views.py:57
+msgid "Home"
+msgstr "Trang chủ"
+
+#: accounts/templates/accounts/logged_out.html:16
+msgid "Thanks for spending some quality time with the web site today."
+msgstr "Cảm ơn bạn đã dành thời gian chất lượng với trang web hôm nay."
+
+#: accounts/templates/accounts/logged_out.html:18
+msgid "Log in again"
+msgstr "Đăng nhập lại"
+
+#: accounts/templates/accounts/login_form.html:34
+#: accounts/templates/accounts/password_change_form.html:22
+#: accounts/templates/accounts/profile_form.html:34
+msgid "Please correct the error below."
+msgid_plural ""
+"Please\n"
+"        correct the errors below."
+msgstr[0] "Vui lòng sửa lỗi dưới đây."
+msgstr[1] "Vui lòng sửa các lỗi dưới đây."
+
+#: accounts/templates/accounts/login_form.html:51
+#, python-format
+msgid ""
+"You are authenticated as %(username)s, but are not authorized to access this "
+"page. Would you like to login to a different account?"
+msgstr ""
+"Bạn đã xác thực với tên %(username)s, nhưng không được phép truy cập trang "
+"này. Bạn có muốn đăng nhập bằng một tài khoản khác không?"
+
+#: accounts/templates/accounts/login_form.html:73
+msgid "Forgotten your password or username?"
+msgstr "Quên mật khẩu hoặc tên người dùng?"
+
+#: accounts/templates/accounts/login_form.html:78
+msgid "Or you want to sign up a new account?"
+msgstr "Hoặc bạn muốn đăng ký một tài khoản mới?"
+
+#: accounts/templates/accounts/login_form.html:82
+#: accounts/templates/accounts/password_reset_complete.html:18
+msgid "Log in"
+msgstr "Đăng nhập"
+
+#: accounts/templates/accounts/password_change_done.html:5
+msgid "Your password was changed."
+msgstr "Mật khẩu của bạn đã được thay đổi."
+
+#: accounts/templates/accounts/password_change_form.html:11
+msgid "Password change"
+msgstr "Thay đổi mật khẩu"
+
+#: accounts/templates/accounts/password_change_form.html:28
+#, fuzzy
+#| msgid ""
+#| "Please enter your old password, for security's sake, and then enter your "
+#| "new password twice so we can verify you typed it in correctly."
+msgid ""
+"Please enter your old password, for security’s sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+"Vui lòng nhập mật khẩu cũ của bạn, vì lý do bảo mật, sau đó nhập mật khẩu "
+"mới hai lần để chúng tôi có thể xác minh bạn đã nhập chính xác."
+
+#: accounts/templates/accounts/password_change_form.html:58
+#: accounts/templates/accounts/password_reset_confirm.html:35
+msgid "Change my password"
+msgstr "Thay đổi mật khẩu của tôi"
+
+#: accounts/templates/accounts/password_reset_complete.html:10
+#: accounts/templates/accounts/password_reset_form.html:11
+msgid "Password reset"
+msgstr "Đặt lại mật khẩu"
+
+#: accounts/templates/accounts/password_reset_complete.html:16
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr ""
+"Mật khẩu của bạn đã được đặt. Bạn có thể tiếp tục và đăng nhập ngay bây giờ."
+
+#: accounts/templates/accounts/password_reset_confirm.html:14
+msgid "Password reset confirmation"
+msgstr "Xác nhận đặt lại mật khẩu"
+
+#: accounts/templates/accounts/password_reset_confirm.html:21
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+"Vui lòng nhập mật khẩu mới của bạn hai lần để chúng tôi có thể xác minh bạn "
+"đã nhập chính xác."
+
+#: accounts/templates/accounts/password_reset_confirm.html:27
+msgid "New password:"
+msgstr "Mật khẩu mới:"
+
+#: accounts/templates/accounts/password_reset_confirm.html:32
+msgid "Confirm password:"
+msgstr "Xác nhận mật khẩu:"
+
+#: accounts/templates/accounts/password_reset_confirm.html:39
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+"Liên kết đặt lại mật khẩu không hợp lệ, có thể vì nó đã được sử dụng. Vui "
+"lòng yêu cầu đặt lại mật khẩu mới."
+
+#: accounts/templates/accounts/password_reset_done.html:5
+#, fuzzy
+#| msgid ""
+#| "We've emailed you instructions for setting your password, if an account "
+#| "exists with the email you entered. You should receive them shortly."
+msgid ""
+"We’ve emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+"Chúng tôi đã gửi email hướng dẫn đặt mật khẩu cho bạn, nếu có tài khoản với "
+"email bạn đã nhập. Bạn sẽ nhận được chúng trong thời gian ngắn."
+
+#: accounts/templates/accounts/password_reset_done.html:6
+#, fuzzy
+#| msgid ""
+#| "If you don't receive an email, please make sure you've entered the "
+#| "address you registered with, and check your spam folder."
+msgid ""
+"If you don’t receive an email, please make sure you’ve entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+"Nếu bạn không nhận được email, vui lòng đảm bảo bạn đã nhập đúng địa chỉ bạn "
+"đã đăng ký, và kiểm tra thư mục spam của bạn."
+
+#: accounts/templates/accounts/password_reset_email.html:3
+#, python-format
+msgid ""
+"\n"
+"    You're receiving this email because you requested a password reset for "
+"your user account at %(site_name)s.\n"
+"  "
+msgstr ""
+"\n"
+"    Bạn nhận được email này vì bạn đã yêu cầu đặt lại mật khẩu cho tài khoản "
+"người dùng của bạn tại %(site_name)s.\n"
+"  "
+
+#: accounts/templates/accounts/password_reset_email.html:7
+msgid "Please go to the following page and choose a new password:"
+msgstr "Vui lòng truy cập trang sau và chọn mật khẩu mới:"
+
+#: accounts/templates/accounts/password_reset_email.html:11
+#, fuzzy
+#| msgid "Your username, in case you've forgotten:"
+msgid "Your username, in case you’ve forgotten:"
+msgstr "Tên người dùng của bạn, trong trường hợp bạn đã quên:"
+
+#: accounts/templates/accounts/password_reset_email.html:13
+msgid "Thanks for using our site!"
+msgstr "Cảm ơn bạn đã sử dụng trang web của chúng tôi!"
+
+#: accounts/templates/accounts/password_reset_email.html:15
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "Đội ngũ %(site_name)s"
+
+#: accounts/templates/accounts/password_reset_form.html:16
+#, fuzzy
+#| msgid ""
+#| "Forgotten your password? Enter your email address below, and we'll email "
+#| "instructions for setting a new one."
+msgid ""
+"Forgotten your password? Enter your email address below, and we’ll email "
+"instructions for setting a new one."
+msgstr ""
+"Quên mật khẩu? Nhập địa chỉ email của bạn dưới đây, và chúng tôi sẽ gửi "
+"email hướng dẫn đặt mật khẩu mới."
+
+#: accounts/templates/accounts/password_reset_form.html:22
+msgid "Email address:"
+msgstr "Địa chỉ email:"
+
+#: accounts/templates/accounts/password_reset_form.html:28
+msgid "Reset my password"
+msgstr "Đặt lại mật khẩu của tôi"
+
+#: accounts/templates/accounts/profile_form.html:17
+msgid "Breadcrumbs"
+msgstr "Đường dẫn"
+
+#: accounts/templates/accounts/profile_form.html:45
+msgid "Save"
+msgstr "Lưu"
+
+#: accounts/templates/accounts/profile_form.html:46
+msgid "Save and continue editing"
+msgstr "Lưu và tiếp tục chỉnh sửa"
+
+#: accounts/views.py:44
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: accounts/views.py:86
+msgid "Identity"
+msgstr "Danh tính"
+
+#: accounts/views.py:87
+msgid "Personal infomation"
+msgstr "Thông tin cá nhân"
+
+#: accounts/views.py:91
+msgid "Important dates"
+msgstr "Ngày quan trọng"
+
+#: accounts/views.py:116
+#, python-brace-format
+msgid "The {name} “{obj}” was changed successfully."
+msgstr "{name} “{obj}” đã được thay đổi thành công."
+
+#: accounts/views.py:119
+#, python-brace-format
+msgid ""
+"The {name} “{obj}” was changed successfully. You may edit it again below."
+msgstr ""
+"{name} “{obj}” đã được thay đổi thành công. Bạn có thể chỉnh sửa lại bên "
+"dưới."
+
+#: accounts/views.py:135
+msgid "You don't have permission to edit this profile."
+msgstr "Bạn không có quyền chỉnh sửa hồ sơ này."
+
+#~ msgid "Django site admin"
+#~ msgstr "Quản trị trang Django"
